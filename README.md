@@ -2,10 +2,10 @@
 
 Description:
 --
-A Two player Battle Game with players having their armies of troops fighting each other.
-The troop types at the moment are: Monkeys, Flying Monkeys, Wizards and Balloons
+A Two player Battle Game with players having their armies of troops fighting against each other.
+The troop types at the moment are: Monkeys, Flying Monkeys, Wizards and Balloons.
 
-Note: This is an eclipse project. It is recommend to import the project to eclipse.
+Note: This is an eclipse project. It is recommend to import the project into eclipse.
 
 Project Directory structure is as follows:
 --
