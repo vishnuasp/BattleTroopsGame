@@ -1,31 +1,21 @@
 # BattleTroopsGame
 
-Description: A two player Battle Game with players having their armies of troops fighting each other.
+Description:
+--
+A Two player Battle Game with players having their armies of troops fighting each other.
 The troop types at the moment are: Monkeys, Flying Monkeys, Wizards and Balloons
 
 Note: This is an eclipse project. It is recommend to import the project to eclipse.
 
 Project Directory structure is as follows:
+--
 
-   BattleTroopsGame
-                |
-                |
-                |---------->battleGame(Package)-----|-----> Troop.java (Base class for all troops)
-                |                                   |-----> Monkey.java, Wizard.java, Balloon.java, FlyingMonkey.java (Troops)
-                |                                   |-----> BattleGame.java (Has Main method to excecute the code)*
-                |                                   |-----> Battle.java (Battle comprises of various components that drives the game)
-                |                                   |-----> Player.java (Player participating in the battle)
-                |                                   |-----> Type.java (Enum for Troop type ex: AIR or GROUND or ALL)
-                |                                   |-----> TroopFactory.java (Factory class to build a required Troop)
-                |
-                |
-                |---------->battleGameTest(Package)-|-----> Tests for all Troops (MonkeyTest, WizardTest, BalloonTest, FlyingMonkeyTest)
-                     (Test Suit for all Classes)    |-----> Tests for Battle.java
-                                                    |-----> Tests for Player.java
-                                                    |-----> Tests for TroopFactory.java
-                                                    
+<p>
+    <img align ="center" src="https://github.com/vishnuasp/BattleTroopsGame/blob/master/FileStructure.JPG" width="850" height="300" />
+</p>
                                                     
  To execute the code:
+ --
  1. Import the project in eclipse
  2. Open BattleGame.java, this class has Main method which initializes required objects and commences the Battle between two players.
  3. Default case is provided, where two players are given troop creation pattern and army size. Then creation of armies is done.
