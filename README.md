@@ -7,10 +7,6 @@ Note: This is an eclipse project. It is recommend to import the project to eclip
 
 Project Directory structure is as follows:
 
-<p align="center">
-  <img src="https://ibb.co/ZdvRghn" title="File Structure">
-</p>
-
    BattleTroopsGame
                 |
                 |
